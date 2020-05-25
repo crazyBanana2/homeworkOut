@@ -194,14 +194,33 @@ section:after {
     
     <h3>Weight:</h3>
     <label for="weight"></label>
-    <input type="text" id="weight" name="weight" maxlength="3" size="1" placeholder="lbs">
-    
-    <h1>Do You Have Equipment?</h1>
-    <input type="radio" id="male" name="equip" value="male">
-    <label for="male">Male</label><br>
-    <input type="radio" id="female" name="gender" value="female">
-    <label for="female">Female</label><br>
-    
+    <input type="text" id="weight" name="weight" maxlength="3" size="1" placeholder="lbs"><br><br>
+
+	<h3>Equipment:</h3>
+    <form action="/action_page.php">
+      <input type="checkbox" id="equipment0" name="equipment0" value="NO EQUIPMENT">
+      <label for="equipment0"> NO EQUIPMENT</label><br>
+      <input type="checkbox" id="equipment1" name="equipment1" value="Barbell">
+      <label for="equipment1"> Barbell</label><br>
+      <input type="checkbox" id="equipment2" name="equipment2" value="Bench">
+      <label for="equipment2"> Bench</label><br>
+      <input type="checkbox" id="equipment3" name="equipment3" value="Dumbbell">
+      <label for="equipment3"> Dumbbell</label><br>
+      <input type="checkbox" id="equipment4" name="equipment4" value="Gym mat">
+      <label for="equipment4"> Gym mat</label><br>
+      <input type="checkbox" id="equipment5" name="equipment5" value="Incline bench">
+      <label for="equipment5"> Incline bench</label><br>
+      <input type="checkbox" id="equipment6" name="equipment6" value="Kettlebell">
+      <label for="equipment6"> Kettlebell</label><br>
+      <input type="checkbox" id="equipment7" name="equipment7" value="Pull-up bar">
+      <label for="equipment7"> Pull-up bar</label><br>
+      <input type="checkbox" id="equipment8" name="equipment8" value="Swiss Ball">
+      <label for="equipment8"> Swiss Ball</label><br>
+      <input type="checkbox" id="equipment9" name="equipment9" value="SZ-Bar">
+      <label for="equipment9"> SZ-Bar</label><br><br>
+      <input type="submit" value="Submit">
+
+    </form>
     
   </nav>
   
@@ -214,7 +233,7 @@ section:after {
         <p id="demo"></p>
 
         <script>
-          document.getElementById("demo").innerHTML = 5 + 6;
+          document.getElementById("demo").innerHTML = age;
         </script>
 
       </body>
