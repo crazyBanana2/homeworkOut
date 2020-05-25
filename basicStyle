@@ -197,7 +197,7 @@ section:after {
     <input type="text" id="weight" name="weight" maxlength="3" size="1" placeholder="lbs"><br><br>
 
 	<h3>Equipment:</h3>
-    <form action="/action_page.php">
+    <form action="https://www.desmos.com/calculator">
       <input type="checkbox" id="equipment0" name="equipment0" value="NO EQUIPMENT">
       <label for="equipment0"> NO EQUIPMENT</label><br>
       <input type="checkbox" id="equipment1" name="equipment1" value="Barbell">
@@ -218,7 +218,26 @@ section:after {
       <label for="equipment8"> Swiss Ball</label><br>
       <input type="checkbox" id="equipment9" name="equipment9" value="SZ-Bar">
       <label for="equipment9"> SZ-Bar</label><br><br>
-      <input type="submit" value="Submit">
+      
+    <h3>Muscle Focus:</h3>
+      <input type="checkbox" id="muscle0" name="muscle0" value="NO EQUIPMENT">
+      <label for="muscle0"> NO PREFERANCE</label><br>
+      <input type="checkbox" id="muscle1" name="muscle1" value="Abs">
+      <label for="muscle1"> Abs</label><br>
+      <input type="checkbox" id="muscle2" name="muscle2" value="Arms">
+      <label for="muscle2"> Arms</label><br>
+      <input type="checkbox" id="muscle3" name="muscle3" value="Arms">
+      <label for="muscle3"> Back</label><br>
+      <input type="checkbox" id="muscle4" name="muscle4" value="Arms">
+      <label for="muscle4"> Calves</label><br>
+      <input type="checkbox" id="muscle5" name="muscle5" value="Arms">
+      <label for="muscle5"> Chest</label><br>
+      <input type="checkbox" id="muscle6" name="muscle6" value="Arms">
+      <label for="muscle6"> Legs</label><br>
+      <input type="checkbox" id="muscle7" name="muscle7" value="Arms">
+      <label for="muscle7"> Shoulders</label><br><br>
+      
+      <input type="submit" value="Submit"><br><br>
 
     </form>
     
