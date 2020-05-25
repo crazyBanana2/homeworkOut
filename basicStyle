@@ -135,7 +135,7 @@ section:after {
     }
 
     .button4:hover {
-      background-color: #000000;
+      background-color: #0fd916 ;
       color: white;
     }
     
@@ -168,8 +168,8 @@ section:after {
     <button class="button button1">Quick 15</button>
     <button class="button button2">Ideal 30</button>
     <button class="button button3">Blast 60</button>
-    <button class="button button4">Benefits</button>
-    <button class="button button5">Contact</button>
+    <button class="button button4">Shuffle!</button>
+    <button class="button button5">Benefits</button>
     <button class="button button6">About Us</button>
     </header>
 
