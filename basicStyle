@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: groove;
+  border-width: 1px;
+  border-color: #000000;
+}
+
+/* Style the header */
+header {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: left;
+  text-align: top;
+  font-size: 25px;
+  color: red;
+  border-style: groove;
+  border-width: 1px;
+  border-color: #000000;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  border-style: groove;
+  border-width: 1px;
+  border-color: #000000;
+  background: #ffffff;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="https://i.imgur.com/oLYvKjd.png">
+  <style>
+  	 
+    img {
+      display: block;
+      margin-right: auto;
+    }
+    
+    .button {
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+    .button1 {
+      background-color: white;
+      color: black;
+      border: 2px solid #000000;
+    }
+
+    .button1:hover {
+      background-color: #000000;
+      color: white;
+    }
+
+    .button2 {
+      background-color: white;
+      color: black;
+      border: 2px solid #000000;
+    }
+
+    .button2:hover {
+      background-color: #000000;
+      color: white;
+    }
+    
+    .button3 {
+      background-color: white;
+      color: black;
+      border: 2px solid #000000;
+    }
+
+    .button3:hover {
+      background-color: #000000;
+      color: white;
+    }
+    
+    .button4 {
+      background-color: white;
+      color: black;
+      border: 2px solid #000000;
+    }
+
+    .button4:hover {
+      background-color: #000000;
+      color: white;
+    }
+    
+    .button5 {
+      background-color: white;
+      color: black;
+      border: 2px solid #000000;
+    }
+
+    .button5:hover {
+      background-color: #000000;
+      color: white;
+    }
+    
+    .button6 {
+      background-color: white;
+      color: black;
+      border: 2px solid #000000;
+    }
+
+    .button6:hover {
+      background-color: #000000;
+      color: white;
+    }
+
+  </style>
+  </head>
+  <body>
+
+    <button class="button button1">Quick 15</button>
+    <button class="button button2">Ideal 30</button>
+    <button class="button button3">Blast 60</button>
+    <button class="button button4">Benefits</button>
+    <button class="button button5">Contact</button>
+    <button class="button button6">About Us</button>
+    </header>
+
+<section>
+  <nav>
+     
+    <h1>Gender:</h1>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    
+    <h3>Age:</h3>
+    <label for="age"></label>
+    <input type="text" id="age" name="age" maxlength="3" size="1"><br>
+
+	<h3>Height:</h3>
+    <label for="height"></label>
+    <input type="text" id="height" name="height" maxlength="3" size="1" placeholder="feet">
+    <input type="text" id="height" name="height" maxlength="3" size="2" placeholder="inches">
+    <h1></h1>
+    
+    <h3>Weight:</h3>
+    <label for="weight"></label>
+    <input type="text" id="weight" name="weight" maxlength="3" size="1" placeholder="lbs">
+    
+    <h1>Do You Have Equipment?</h1>
+    <input type="radio" id="male" name="equip" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    
+    
+  </nav>
+  
+  <article>
+      <body>
+
+        <h2>My First Web Page</h2>
+        <p>My First Paragraph.</p>
+
+        <p id="demo"></p>
+
+        <script>
+          document.getElementById("demo").innerHTML = 5 + 6;
+        </script>
+
+      </body>
+  </article>
+</section>
+
+
+</body>
+</html>
