@@ -1,5 +1,5 @@
 # homeworkOut : The main idea
-This website gives the user access to over 200 exercises that can be sorted based on the user's weight, height, gender, equipment, and muscle focus. This website also allows the user to make a shuffle of exercises that can then be played by the site, with the website setting the time and amount of repetitions that the user needs to do. Ultimately, this website is supposed to allow anyone to start exercising seamlessly.
+This website gives the user access to over 200 exercises that can be sorted based on the user's weight, height, gender, equipment, and muscle focus. This website also allows the user to make a shuffle of exercises that can then be played by the site, with the website setting the time and amount of repetitions that the user needs to do. Ultimately, this website is supposed to allow anyone to start exercising seamlessly. -> https://youtu.be/qRFFq_3IPzk
 
 # Credits
  1. [RobertJGabriel](https://github.com/RobertJGabriel)/**[Google-profanity-words](https://github.com/RobertJGabriel/Google-profanity-words)** <- allowed for broader profane word removal
