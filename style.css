@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: groove;
+  border-width: 4px;
+  background-color: #ffffff;
+}
+
+/* Style the header */
+header {
+  background-color: #48a9a6;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 30px;
+  text-align: top;
+  font-size: 25px;
+  color: black;
+  border-style: groove;
+  border-width: 1px;
+  border-color: #000000;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+  font-size: 15px;
+  border-style: groove;
+  border-width: 1px;
+  border-color: #000000;
+  background: #F4D58D;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  height: auto;
+  background-color: #9FB798;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#grad1 {
+  height: 200px;
+  background-color: red; 
+  background-image: linear-gradient(red, yellow);
+}
+
+img {
+  display: block;
+  margin-right: auto;
+}
+
+.border {
+  border: 1px solid green;
+}
+
+.button {
+  border: none;
+  color: black;
+  background-color: #E5F993;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+/*This is the exercise list*/
+.rightDetail {
+  display: inline-block;
+  float: right;
+  /*width: 80%;*/
+  height: 100%
+}
+.leftDetail {
+  display: inline-block;
+  float: left;
+  /*width: 20%;*/
+  height: 100%
+}
+
+.exercise{
+  
+  width : 100%
+}
+
+.exerciseList{
+  background-color:red
+}
+
+.button:hover{
+  background-color: black;
+  color: white;
+}
+
+#shuffle:hover {
+  background-color: #0fd916 ;
+  color: white;
+}
+
+#submit {
+  background-color: #F2A65A ;
+  color: black;
+}
+
+#submit:hover {
+  background-color: #E1A63F;
+  color: white;
+}
+
+input{
+  min-width:5em;
+}
+
+/*
+<button class="button" id = "ideal30" onclick="document.location.href='shuffle.html';">Ideal 30</button>
+      <button class="button" id = "blast60" onclick="document.location.href='shuffle.html';">Blast 60 </button>
+
+
+<button class="button" id = "aboutus" onclick="document.location.href='shuffle.html';">About Us</button>
+*/

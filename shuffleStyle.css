@@ -1,0 +1,28 @@
+#mainHStack{
+  display: flex;
+}
+
+#imgWrapper{
+  float: left;
+  width: 20%;
+  background-color: lightgreen;
+  height: 20%;
+}
+
+#listWrapper{
+  float: right;
+  width: 30%;
+  background-color: lightblue;
+  max-height:80%;
+}
+
+img{
+  max-width: 75%;
+  max-height: 75%;
+  padding: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
